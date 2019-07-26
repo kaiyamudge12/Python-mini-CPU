@@ -17,7 +17,7 @@ while pc < len(program):
 	elif instruct == 'JMP':
 		pc = dest
 	elif instruct == 'LDA':
-		registers[int(line[6])] = registers[dest]
+		registers[dest] = registers[int(line[6])]
 		pc += 1
 	elif instruct == 'IFL':
 		if registers[int(line[6])] < registers[int(line[8])]:
