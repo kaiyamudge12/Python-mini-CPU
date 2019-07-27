@@ -16,3 +16,5 @@ LDA DESTINATION SOURCE - loads value from register to destination
 IFL DESTINATION SOURCE SOURCE - compares values from registers and jumps if true
 
 LDV DESTINATION VALUE - loads value into register
+
+Tested On Linux
