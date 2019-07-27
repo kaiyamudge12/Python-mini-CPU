@@ -17,4 +17,8 @@ IFL DESTINATION SOURCE SOURCE - compares values from registers and jumps if true
 
 LDV DESTINATION VALUE - loads value into register
 
+ADR DESTINATION SOURCE SOURCE - adds two values from registers and places result in destinaiton
+
+SUR DESTINATION SOURCE SOURCE - subtracts two values from registers and places result in destinaiton
+
 Tested On Linux
