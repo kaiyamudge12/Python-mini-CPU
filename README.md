@@ -1,7 +1,7 @@
 # Python-mini-CPU
 A simple ISA implementation written in Python
 
-This CPU has 6 registers and 6 instructions (more are on the way).
+This CPU has 6 registers and 6 instructions.
 
 The instructions:
 
